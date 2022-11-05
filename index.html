@@ -5,10 +5,92 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Github Search Page</title>
   </head>
   <body>
-    <div >Hello Github</div>
+    <main>
+      <div class="container">
+        <div class="search-form">
+          <input type="text" placeholder="Search for Github User">
+          <button>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <div class="profile-container">
+              <div class="profile-row">
+                <div class="profile-image">
+                  <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="">
+                </div>
+                <div class="about">
+                  <div class="details">
+                      <h1 class="name">Franklin Mensah</h1>
+                      <h3 class="username">
+                        @ fiificode
+                      </h3>
+                      <p class="country">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Ghana
+                      </p>
+                      <p class="twitter">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        fiificode123
+                      </p>
+                      <p class="date-created">
+                        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+                        2/02/2001
+                      </p>
+                  </div>
+                  <div class="profile-btn">
+                    <a href="#">Visit Profile</a>
+                  </div>
+                </div>
+              </div>
+              <div class="bio">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ullam eaque maiores deleniti?</p>
+              </div>
+              <div class="follows-row">
+                <div class="follows-col">
+                  <h3 class="heading">Followers</h3>
+                  <p>23</p>
+                </div>
+                <div class="follows-col">
+                  <h3 class="heading">Following</h3>
+                  <p>2</p>
+                </div>
+                <div class="follows-col">
+                  <h3 class="heading">Repos</h3>
+                  <p>48</p>
+                </div>
+              </div>
+              <h3 class="repos-heading">
+                Repositories
+              </h3>
+              <div class="repos-container">
+                <ul>
+                  <a href="#">
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                    <li>Repo 1</li>
+                  </a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
