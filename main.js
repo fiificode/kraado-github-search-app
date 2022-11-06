@@ -19,7 +19,6 @@ async function repos(username) {
 }
 async function add_repo() {
   const reposData = await repos(input.value);
-  console.log(reposData); 
   repos_container.innerHTML = reposData.map(repo => {
     return `
     <ul>
